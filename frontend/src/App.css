@@ -27,7 +27,150 @@
 .App-link {
   color: #61dafb;
 }
+.candidateCSS{
+  padding: 6px;
+  gap: 10px;
+  font-size: 26px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn{
+  margin-left: 50px;
+  background-color: rgb(4, 205, 67);
+  padding: 8px 32px;
+  font-size: 16px;
+  border-radius: 3.6px;
+  box-shadow: 1px 1px 1px red;
+  cursor: pointer;
+}
+ul{
+  background-color: aliceblue;
+  height: 30vh;
+  margin-top: 50px;
+  padding: 100px;
+  cursor: pointer;
+}
+.voting_title{
+  background-color: #f10606;
+  border-radius: 5px;
+  width: 25%;
+  margin-left: 34%;
+  padding: 10px 0px;
+  font-size: 24px;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.voting_title_Admin{
+   background-color: rgb(214, 2, 62);
+   padding: 15px 0px;
+   width: 13%;
+   font-size: 20px;
+   margin-top: 13px;
+   color: white;
+   margin-left: 43%;
+   border-radius: 3px;
+   cursor: pointer;
+}
+.admincss{
+   background-color: #61dafb;  
+   padding: 20px 10%;
+   color: white;
+   display: flex;
+   border-radius: 3px;
+   margin-top: -3px;
+   box-shadow: 1px 1px 2px rgb(30, 30, 30);
+   cursor: pointer;
+}
+#candi{
+  background-color: blueviolet;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-size: px;
+}
+#vote{
+  margin-left: 10px;
+  background-color: rgb(19, 24, 24);
+  padding: 4px 8px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+#hifan{
+  margin-left: 10px;
+}
+#vote_flex{
+  display: flex;
+  cursor: pointer;
+}
+#logout{
+  margin-left: 29%;
+  font-size: 22px;
+  background-color:rgb(169, 13, 169);
+  padding: 3px 20px;
+  color: white;
+  border-radius: 6px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.label{
+  margin-left: -20px;
+}
+.input{
+  margin-left: 10px;
+  outline: none;
+}
+.register{
+  margin-top: 40px;
+  background-color: burlywood;
+  width: 22%;
+  margin-left: 35%;
+  padding: 45px;
+  border-radius:6px ;
 
+}
+#reg{
+  margin-left: -40px;
+  font-size: 29px;
+  margin-top: 20px;
+  background-color: #4c09d3;
+  width: 27.2%;
+  padding: 2px;
+  color: white;
+  margin-left: 35%;
+  border-radius: 4px;
+}
+.logi{
+   margin-left: 40px;
+   padding: 4px 15px;
+}
+.regi{
+  padding: 4px 15px;
+  margin-top: 4px;
+}
+.logi1{
+  margin-left: -40px;
+  padding: 4px 15px;
+}
+#login_title{
+  margin-left: -80px;
+  font-size: 28px;
+  background-color: #61dafb;
+  width: 24%;
+  padding: 8px;
+  margin-left: 33.9%;
+  border-radius: 2px;
+}
+.reg1{
+  margin-left: 40px;
+  padding: 4px 15px;
+}
+.loginForm{
+  margin-top: 40px;
+  background-color: #f10606;
+  width: 20%;
+  margin-left: 34%;
+  padding: 40px;
+  border-radius: 5px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
